@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #512a10;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: translateY(-2rem);
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        -webkit-transform: translateY(-2rem);
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+}
+
+section {
+    padding: 5rem 1rem;
+}
+
+.link-btn {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    border: 0.1rem solid #dc8b55;
+    color: #de8a52;
+    background: none;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.link-btn:hover {
+    background: #3d1f0b;
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.header {
+    z-index: 1000;
+    max-height: 500px;
+    background: rgba(255, 255, 255, 0.527);
+    box-shadow: #585552;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.header .nav a {
+    font-size: 1.7rem;
+    margin-right: 3rem;
+    color: #fff;
+}
+
+.header .nav {
+    margin-right: 60px;
+}
+
+.header .nav a:hover {
+    color: #f5a875;
+    text-underline-offset: .5rem;
+}
+
+.header .icons div {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.header #menu-btn {
+    display: none;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 30px;
+
+}
+
+.home {
+
+    background: linear-gradient(rgba(101, 93, 93, 0.854), rgba(14, 13, 13, 0.813)), url(image/blog-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 550px;
+}
+
+.home h1 {
+    padding: 1rem 0;
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 180px;
+
+}
+
+.prev-page {
+    margin-left: 470px;
+}
+
+.prev-page a {
+    font-size: 17px;
+    color: blanchedalmond;
+
+}
+
+.prev-page a:hover {
+    font-size: 20px;
+    color: #f5a875;
+
+}
+
+.blog-img-first {
+
+    margin-top: 85px;
+}
+
+.blog-img-first img {
+    border-radius: 10px;
+    box-shadow: 10px;
+
+}
+
+.blog-1 {
+    margin-top: 50px;
+}
+
+.blog-1 h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blog-1 p {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blog-2 {
+    margin-top: 70px;
+}
+
+.blog-3 {
+    margin-top: 80px;
+}
+
+/* .blog-carousel {
+    margin-top: 50px;
+} */
+.blog-video-1 {
+    margin-top: 80px;
+}
+
+/* footer start  */
+.footer {
+    text-align: center;
+    background: linear-gradient(rgba(7, 6, 6, 0.854), rgba(14, 13, 13, 0.813)), url(image/footer-2.png) no-repeat;
+
+}
+
+.footer-logo img {
+    height: 150px;
+
+
+}
+
+.footer .credit {
+    margin: 2rem 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: rgb(244, 231, 231);
+}
+
+.footer .credit span {
+    text-decoration: underline !important;
+}
+
+.footer .share {
+    margin-top: 3rem;
+}
+
+.footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: 0.1rem solid #ce9d7c;
+    color: #3b2414;
+    margin: 0 .3rem;
+    background-color: white;
+    text-decoration: none;
+}
+
+.footer .share a:hover {
+    background: #341a0a;
+    color: #fff;
+}
